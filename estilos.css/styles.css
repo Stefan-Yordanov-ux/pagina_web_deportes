@@ -1,0 +1,55 @@
+    /* Header / Titles */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .navbar-brand {
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    /* Body text */
+    body,
+    p,
+    li,
+    a {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+
+
+    /* Navbar y footer negro con texto blanco */
+    .navbar,
+    .footer {
+        background-color: #000000 !important;
+        color: #F5F5F5 !important;
+    }
+
+    .navbar a,
+    footer a {
+        color: #F5F5F5 !important;
+    }
+
+    /* Botones naranja */
+    .btn-naranja {
+        background-color: #FF6F00;
+        color: #fff;
+        border: none;
+    }
+
+    .btn-naranja:hover {
+        background-color: #e65c00;
+    }
+
+
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 400;
+        /* Todos igual */
+        letter-spacing: 1px;
+        /* Un poco más de espacio para que se vea deportivo */
+    }
